@@ -6,6 +6,9 @@ const bookSchema = new mongoose.Schema({
         required: true,
         trim: true
     },
+    sku:{
+        type: String
+    },
     author: {
         type: String,
         required: true,
